@@ -13,7 +13,7 @@
     margin-bottom: 64px;
     border: 1px solid;
     border-color: var(--var-body-fc);
-    border-radius: 192px;
+    border-radius: 50%;
     background-color: var(--var-body-bg);
     background-image: url("../img/cv-photo.png");
 }
@@ -21,6 +21,7 @@
 .content-sidebar-skills {
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
 }
 
 .section-skills-item {
@@ -38,6 +39,10 @@
 .section-skills-item-content {
     display: flex;
     flex-direction: column;
+}
+
+.section-skills-item-content-text {
+    font-size: 14px;
 }
 
 .content-sidebar-contacts {

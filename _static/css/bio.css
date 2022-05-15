@@ -1,0 +1,87 @@
+@import url('colors.css');
+.content-bio {
+    background-color: var(--var-body-bg);
+    width: 100%;
+    padding: 32px;
+    margin-left: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cv-name {
+    font-size: 48px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.cv-position {
+    font-size: 20px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.content-bio-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 48px;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+}
+
+.timeline-item {
+    display: flex;
+    min-height: 96px;
+}
+
+.timeline-item-last {
+    min-height: auto;
+}
+
+.timeline-item-last .separator-line {
+    visibility: hidden;
+}
+
+.timeline-item-separator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+}
+
+.separator-circle {
+    display: flex;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: var(--var-accent);
+}
+
+.separator-line {
+    width: 2px;
+    background-color: var(--var-accent);
+    flex-grow: 1;
+}
+
+.timeline-item-date {
+    width: 128px;
+    flex-shrink: 0;
+    margin-right: 32px;
+}
+
+.timeline-date {
+    color: var(--var-accent);
+    font-weight: 600;
+}
+
+.timeline-item-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.timeline-item-content .section-subheader {
+    margin-bottom: 4px;
+}

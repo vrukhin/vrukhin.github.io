@@ -4,6 +4,7 @@
 @import url("header.css");
 @import url("content.css");
 @import url("sidebar.css");
+@import url("bio.css");
 @import url("footer.css");
 * {
     margin: 0;
