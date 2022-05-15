@@ -1,12 +1,14 @@
 :root {
     --var-body-bg: #fff;
-    --var-body-fc: #666;
+    --var-bg: #f8f8f8;
+    --var-body-fc: #666666;
     --var-accent: #eca470;
     --var-link: #0077ff;
 }
 
 [dark] {
     --var-body-bg: #524e4e;
+    --var-bg: #333333;
     --var-body-fc: #f2f2f2;
     --var-accent: #eca470;
     --var-link: #4fa1ff;

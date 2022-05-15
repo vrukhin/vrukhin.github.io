@@ -1,6 +1,6 @@
 @import url('colors.css');
 .content-bio {
-    background-color: var(--var-body-bg);
+    background-color: var(--var-bg);
     width: 100%;
     padding: 32px;
     margin-left: 32px;

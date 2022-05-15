@@ -3,7 +3,7 @@
 .header {
     width: 100%;
     height: 48px;
-    background-color: var(--var-body-bg);
+    background-color: var(--var-bg);
 }
 
 .theme-toggle-container {

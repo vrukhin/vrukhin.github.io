@@ -1,6 +1,6 @@
 @import url('colors.css');
 .content-sidebar {
-    background-color: var(--var-body-bg);
+    background-color: var(--var-bg);
     flex-basis: 30%;
     padding: 32px;
     display: flex;
@@ -11,10 +11,8 @@
     width: 192px;
     height: 192px;
     margin-bottom: 64px;
-    border: 1px solid;
-    border-color: var(--var-body-fc);
     border-radius: 50%;
-    background-color: var(--var-body-bg);
+    background-color: var(--var-bg);
     background-image: url("../img/cv-photo.png");
 }
 

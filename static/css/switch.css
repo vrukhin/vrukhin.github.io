@@ -31,7 +31,7 @@
     width: 12px;
     left: 3px;
     bottom: 3px;
-    background-color: var(--var-body-bg);
+    background-color: var(--var-bg);
     -webkit-transition: .4s;
     transition: .4s;
 }
