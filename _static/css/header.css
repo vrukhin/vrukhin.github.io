@@ -16,4 +16,5 @@
 
 .theme-toggle-container-item {
     margin: 0px 8px;
+    color: var(--var-body-fc);
 }

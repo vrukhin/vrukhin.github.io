@@ -3,3 +3,9 @@
     --var-body-fc: #666;
     --var-accent: #eca470;
 }
+
+[dark] {
+    --var-body-bg: #524e4e;
+    --var-body-fc: #f2f2f2;
+    --var-accent: #eca470;
+}
