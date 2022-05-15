@@ -18,3 +18,8 @@
     margin: 0px 8px;
     color: var(--var-body-fc);
 }
+
+.light-mode-icon.active,
+.dark-mode-icon.active {
+    color: var(--var-accent);
+}
