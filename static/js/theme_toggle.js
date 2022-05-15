@@ -9,3 +9,4 @@ const themeChange = (isChecked) => {
         document.getElementById('light-mode-icon').classList.add('active');
     }
 }
+document.getElementById('theme-toggle-checkbox').checked = false;

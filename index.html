@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="static/css/style.css">
-    <script type="text/javascript" src="static/js/theme_toggle.js"></script>
     <title>CV</title>
 </head>
 <body>
@@ -14,7 +13,7 @@
             <div class="theme-toggle-container">
                 <span id="light-mode-icon" class="material-symbols-outlined light-mode-icon theme-toggle-container-item active">light_mode</span>
                 <label class="switch theme-toggle-container-item">
-                    <input type="checkbox" onchange="themeChange(this.checked)">
+                    <input id="theme-toggle-checkbox" type="checkbox" onchange="themeChange(this.checked)">
                     <span class="slider round"></span>
                 </label>
                 <span id="dark-mode-icon" class="material-symbols-outlined dark-mode-icon theme-toggle-container-item">dark_mode</span>
@@ -181,4 +180,5 @@
         <div class="footer"></div>
     </div>
 </body>
+<script type="text/javascript" src="static/js/theme_toggle.js"></script>
 </html>
