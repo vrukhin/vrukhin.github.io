@@ -1,0 +1,19 @@
+@import url("colors.css");
+@import url("switch.css");
+.header {
+    width: 100%;
+    height: 48px;
+    background-color: var(--var-body-bg);
+}
+
+.theme-toggle-container {
+    display: flex;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 8px;
+}
+
+.theme-toggle-container-item {
+    margin: 0px 8px;
+}
