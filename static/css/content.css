@@ -18,3 +18,12 @@
     font-weight: 700;
     margin-bottom: 8px;
 }
+
+@media (max-width: 800px) {
+    .content {
+        flex-direction: column;
+    }
+    .section-header {
+        margin-bottom: 12px;
+    }
+}

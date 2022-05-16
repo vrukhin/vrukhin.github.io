@@ -3,3 +3,11 @@
     height: 32px;
     background-color: var(--var-accent);
 }
+
+@media (max-width: 1280px) {
+    .footer {
+        position: absolute;
+        left: 0%;
+        top: 100%;
+    }
+}

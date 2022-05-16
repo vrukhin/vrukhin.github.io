@@ -85,3 +85,26 @@
 .timeline-item-content .section-subheader {
     margin-bottom: 4px;
 }
+
+@media (max-width: 800px) {
+    .content-bio {
+        order: -1;
+        padding-left: 0px;
+        padding-bottom: 0px;
+    }
+    .content-bio-item {
+        margin-bottom: 24px;
+    }
+}
+
+@media (max-width: 600px) {
+    .timeline-item {
+        flex-direction: column;
+    }
+    .timeline-item-separator {
+        display: none;
+    }
+    .timeline-item-content .section-subheader {
+        margin-bottom: 0px;
+    }
+}
