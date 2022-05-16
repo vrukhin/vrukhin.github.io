@@ -14,6 +14,7 @@
     border-radius: 50%;
     background-color: var(--var-bg);
     background-image: url("../img/cv-photo.png");
+    background-size: 100%;
 }
 
 .content-sidebar-skills {

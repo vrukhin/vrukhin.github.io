@@ -7,6 +7,27 @@
     flex-direction: column;
 }
 
+.content-bio-header {
+    flex-direction: row !important;
+}
+
+.content-bio-photo {
+    display: none;
+    flex-shrink: 0;
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    margin-right: 32px;
+    background-color: var(--var-bg);
+    background-image: url("../img/cv-photo.png");
+    background-size: 100%;
+}
+
+.content-bio-name {
+    display: flex;
+    flex-direction: column;
+}
+
 .cv-name {
     font-size: 48px;
     font-weight: 500;
@@ -95,9 +116,15 @@
     .content-bio-item {
         margin-bottom: 24px;
     }
+    .content-bio-photo {
+        display: block;
+    }
 }
 
 @media (max-width: 600px) {
+    .content-bio-photo {
+        display: none;
+    }
     .timeline-item {
         flex-direction: column;
     }
