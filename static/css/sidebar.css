@@ -22,9 +22,15 @@
     flex-grow: 1;
 }
 
+.section-skills {
+    display: flex;
+    flex-direction: column;
+}
+
 .section-skills-item {
     display: flex;
     align-items: center;
+    align-items: flex-start;
     margin-bottom: 24px;
 }
 
